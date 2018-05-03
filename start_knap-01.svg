@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="250" height="100" viewBox="0 0 250 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c88b31;
+      }
+
+      .cls-2 {
+        fill: #f5b32f;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 21.59px;
+        font-family: PoiretOne-Regular, Poiret One;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>start_knap</title>
+  <rect class="cls-1" x="49" y="22.17" width="158.52" height="59.83" rx="15.82" ry="15.82"/>
+  <rect class="cls-2" x="49" y="16" width="158.52" height="59.83" rx="15.82" ry="15.82"/>
+  <polygon class="cls-3" points="65.65 32.04 65.65 62.88 92.79 48.69 65.65 32.04"/>
+  <polygon class="cls-1" points="92.79 48.69 123.01 76.15 86 76.49 65.65 62.88 92.79 48.69"/>
+  <text class="cls-4" transform="translate(94.23 52.79)">Start stream</text>
+</svg>

@@ -1,0 +1,446 @@
+#scene {
+    margin: 0 auto;
+    background-image: url(browser_baggrund-01.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 56vw;
+    overflow: hidden;
+    position: relative;
+}
+
+/*....START.....*/
+
+#begyndelsen_container {
+    position: absolute;
+    top: -30%;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 4;
+}
+
+#begyndelsen {
+    background-image: url(youtuber_sprite_final.svg);
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-size: 800% 100%;
+    z-index: 2;
+    animation-name: velkommen;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+@keyframes velkommen {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
+
+/*....BROWSEREN....*/
+
+#youtuber_container {
+    position: absolute;
+    top: 12.5vw;
+    left: 22.2vw;
+    z-index: 3;
+
+    animation-name: minibrowser;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes minibrowser {
+    0% {
+        transform: scale(1);
+        top: 14.5vw;
+        left: 22.5vw;
+    }
+
+    100% {
+        transform: scale(0.5);
+        left: 22.5vw;
+        top: 29.3vw;
+    }
+}
+
+#youtuber {
+    background-image: url(youtuber_closeup-01.svg);
+    position: absolute;
+    width: 46.9vw;
+    height: 36vw;
+    background-size: 800% 100%;
+    z-index: 2;
+}
+
+.vinker {
+    animation-name: vinker;
+    animation-duration: 2.5s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+@keyframes vinker {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
+
+#pige_container {
+    background-image: url(pige_rummet-01.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 46.4vw;
+    height: 32vw;
+    top: 14.5vw;
+    left: 22.5vw;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#pige {
+    background-image: url(pige_vinker.svg);
+    position: absolute;
+    left: 29vw;
+    top: 3vw;
+    width: 20vw;
+    height: 32.9vw;
+    background-size: 800% 100%;
+    z-index: 4;
+}
+
+.hejsa {
+    animation-name: hejsa;
+    animation-duration: 2s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+@keyframes hejsa {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
+
+#pige_naked {
+    background-image: url(pige_skift-01.svg);
+    position: absolute;
+    left: 29vw;
+    top: 3vw;
+    width: 20vw;
+    height: 32.9vw;
+    background-size: 800% 100%;
+    z-index: 5;
+    display: none;
+
+    animation-name: naked_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+/*
+.naked {
+    animation-name: naked_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+*/
+
+@keyframes naked_kf {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
+
+/*.....TALEBOBLER.....*/
+
+#taleboble_1 {
+    background-image: url(taleboble_velkommen-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 45vw;
+    height: 45vw;
+    top: 20vw;
+    left: 0.2vw;
+    z-index: 4;
+    display: none;
+}
+
+#taleboble_2 {
+    background-image: url(taleboble_idag-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 45vw;
+    height: 45vw;
+    top: 20vw;
+    left: 0.2vw;
+    z-index: 4;
+    display: none;
+}
+
+#taleboble_3 {
+    background-image: url(taleboble_bestemmer-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 45vw;
+    height: 45vw;
+    top: 20vw;
+    left: 0.2vw;
+    z-index: 4;
+    display: none;
+}
+
+#taleboble_4 {
+    background-image: url(taleboble_hvem-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 60%;
+    width: 45vw;
+    height: 45vw;
+    top: 27vw;
+    right: 50vw;
+    z-index: 5;
+    display: none;
+}
+
+
+#taleboble_5 {
+    background-image: url(taleboble_marie-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 60%;
+    width: 45vw;
+    height: 45vw;
+    top: 18vw;
+    left: 30vw;
+    z-index: 5;
+    display: none;
+}
+
+#taleboble_6 {
+    background-image: url(taleboble_medpaa-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 60%;
+    width: 45vw;
+    height: 45vw;
+    top: 27vw;
+    right: 50vw;
+    z-index: 5;
+    display: none;
+}
+
+#taleboble_7 {
+    background-image: url(taleboble_maaske-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 60%;
+    width: 45vw;
+    height: 45vw;
+    top: 18vw;
+    left: 30vw;
+    z-index: 5;
+    display: none;
+}
+
+#taleboble_8 {
+    background-image: url(taleboble_erder-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 60%;
+    width: 45vw;
+    height: 45vw;
+    top: 18vw;
+    left: 30vw;
+    z-index: 5;
+    display: none;
+}
+
+#taenkeboble {
+    background-image: url(taenkeboble-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 45vw;
+    height: 45vw;
+    top: 17vw;
+    right: 60vw;
+    z-index: 5;
+    display: none;
+}
+
+#like_infoboks {
+    background-image: url(like_infoboks-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 90%;
+    width: 25vw;
+    height: 5vw;
+    top: 35vw;
+    right: 77vw;
+    z-index: 5;
+    display: none;
+}
+
+#dislike_infoboks {
+    background-image: url(dislike_infoboks-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 90%;
+    width: 25vw;
+    height: 5vw;
+    top: 42vw;
+    right: 77vw;
+    z-index: 5;
+    display: none;
+}
+
+/*..... KNAPPER .....*/
+
+#startknap {
+    background-image: url(start_knap-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 45vw;
+    height: 15vw;
+    top: 50.5vw;
+    left: 27.2vw;
+    z-index: 4;
+}
+
+#startknap:hover {
+    transform: scale(1.02);
+}
+
+#startknap:active {
+    transform: translateY(4px);
+}
+
+#like {
+    background-image: url(like_farve-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 6vw;
+    height: 14vw;
+    top: 45.1vw;
+    left: 53.3vw;
+    z-index: 4;
+    display: none;
+}
+
+#dislike {
+    background-image: url(dislike-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    width: 6vw;
+    height: 14vw;
+    top: 44.9vw;
+    left: 60.2vw;
+    z-index: 4;
+    display: none;
+}
+
+/*..... CHAT .....*/
+
+#chat_container {
+    position: relative;
+    width: 12.4vw;
+    height: 37.8vw;
+    top: 12vw;
+    left: 71.3vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#chat {
+    background-image: url(chat_ond-01.svg);
+    position: absolute;
+    width: 12.4vw;
+    height: 56.8vw;
+    z-index: 1;
+    background-size: 100%;
+
+    animation-name: chat_kf;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(28)
+}
+
+@keyframes chat_kf {
+    0% {
+        transform: translateY(-100vw);
+    }
+
+    100% {
+        transform: translateY(50vw);
+    }
+}
+
+/*...ASSETS...*/
+
+#ikoner {
+    background-image: url(ikoner-01.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 80%;
+    width: 15vw;
+    height: 10vw;
+    top: 40.8vw;
+    left: 57.3vw;
+    z-index: 4;
+}
+
+#liveplet {
+    background-image: url(liveplet.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 5vw;
+    height: 5vw;
+    top: 42.5vw;
+    left: 60.3vw;
+    z-index: 4;
+
+    animation-name: liveplet;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2)
+}
+
+@keyframes liveplet {
+    0% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.6);
+    }
+}

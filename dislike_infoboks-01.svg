@@ -1,0 +1,36 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="431" height="100" viewBox="0 0 431 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #891833;
+      }
+
+      .cls-2 {
+        fill: #ba1c3b;
+      }
+
+      .cls-3 {
+        font-size: 21.59px;
+        fill: #fff;
+        font-family: PoiretOne-Regular, Poiret One;
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.08em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.12em;
+      }
+    </style>
+  </defs>
+  <title>dislike_infoboks</title>
+  <rect class="cls-1" x="49" y="22.17" width="336" height="59.83" rx="15.82" ry="15.82"/>
+  <rect class="cls-2" x="49" y="16" width="336" height="59.83" rx="15.82" ry="15.82"/>
+  <text class="cls-3" transform="translate(75.23 55.79)">“DISLIKE” VIDEON FOR <tspan class="cls-4" x="207.01" y="0">A</tspan><tspan class="cls-5" x="222.77" y="0">T </tspan><tspan class="cls-6" x="239.37" y="0">L</tspan><tspan x="244.62" y="0">YVE</tspan></text>
+</svg>
